@@ -22,7 +22,7 @@ A dynamic form builder application built with React, TypeScript, Material-UI, an
 - Material-UI (MUI) v5
 - Redux Toolkit
 - React Router
-- @hello-pangea/dnd (drag & drop)
+- react-beautiful-dnd (drag & drop)
 - localStorage (persistence)
 
 ## Installation & Setup
