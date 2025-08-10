@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# Dynamic Form Builder - upliance.ai
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic form builder application built with React, TypeScript, Material-UI, and Redux Toolkit.
 
-## Available Scripts
+## Live Demo
+[View Live Application]([https://your-deployed-url.vercel.app](https://form-builder-r8lpnchkp-yashvanth-rs-projects.vercel.app/create))
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Dynamic Form Creation**: Build forms with 7 different field types
+- **Advanced Validations**: Support for required, length, email, and password validations
+- **Derived Fields**: Calculate values based on other fields (e.g., age from date of birth)
+- **Drag & Drop**: Reorder fields with intuitive drag and drop interface
+- **Real-time Preview**: See exactly how your form will look to end users
+- **Local Storage**: All forms persist without requiring a backend
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tech Stack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React 19
+- TypeScript
+- Material-UI (MUI) v5
+- Redux Toolkit
+- React Router
+- @hello-pangea/dnd (drag & drop)
+- localStorage (persistence)
 
-### `npm test`
+## Installation & Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+git clone https://github.com/USERNAME/form-builder-upliance.git
+```
+```
+cd form-builder-upliance
+```
+```
+npm install
+```
+```
+npm start
+```
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Application Routes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `/create` - Build new forms with field configuration
+- `/preview` - Test forms as an end user would
+- `/myforms` - View and manage saved forms
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Assignment Requirements Met
 
-### `npm run eject`
+- All 7 field types supported  
+- Complete field configuration options  
+- Advanced validation system  
+- Derived fields with formula support  
+- Drag & drop field reordering  
+- localStorage persistence  
+- Real-time form preview  
+- TypeScript implementation  
+- Material-UI design system  
+- Redux state management  
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
