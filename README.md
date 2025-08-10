@@ -28,10 +28,10 @@ A dynamic form builder application built with React, TypeScript, Material-UI, an
 ## Installation & Setup
 
 ```
-git clone https://github.com/USERNAME/form-builder-upliance.git
+git clone https://github.com/USERNAME/form-builder.git
 ```
 ```
-cd form-builder-upliance
+cd form-builder
 ```
 ```
 npm install
