@@ -3,7 +3,7 @@
 A dynamic form builder application built with React, TypeScript, Material-UI, and Redux Toolkit.
 
 ## Live Demo
-[View Live Application](https://your-deployed-url.vercel.app](https://form-builder-r8lpnchkp-yashvanth-rs-projects.vercel.app/create)
+[View Live Application](https://form-builder-r8lpnchkp-yashvanth-rs-projects.vercel.app/create)
 
 ## Features
 
